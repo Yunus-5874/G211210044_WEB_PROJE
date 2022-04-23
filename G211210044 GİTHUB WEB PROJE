@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BEN VE BENİM MEMLEKETİM</title>
+</head>
+
+<body>
+    <div style="color:red;font:bold 32px verdana;background-color:aliceblue;width: auto;height: 40px;text-align: center;margin: 0 0 5px 0;padding: 5px;border: 4px solid grey;">BEN VE BENİM MEMLEKETİM</div>
+    <div style="border:5px double darkorange;margin: 0 0 0 0 ;padding: 2px 0 0 0; width: 1326px;height: 250px;">
+        <div style="border: 3px dashed white; float: left;">
+            <img src="SİVAS MANZARA.jpg" alt="SİVAS'IN GECESİ" title="SİVAS'IN GECESİ" width="436" height="240">
+        </div>
+        <div style="border: 3px dashed white; float:right">
+            <img src="SİVAS manzara.jpeg" alt="SİVAS'IN KIŞI" title="SİVAS'IN KIŞI" width="436" height="240">
+        </div>
+        <div style="border: 3px dashed white; float:center">
+            <img src="SİVAS KANGALI.jpg" alt="SİVAS KANGALI" title="SİVAS KANGALI" width="436" height="240">
+        </div>
+    </div>
+    <div style="width: 1326px;height: 330px; border: 5px dashed black;">
+        <div style=" width: 444px;height: 310px;
+    border: 5px solid rgba(9, 6, 6, 0.97);color:rgb(255, 255, 255);font: bold 32px verdana ;background-color:rgb(255, 0, 0);color: aliceblue;
+    font: bold 30px arial;float: left;margin: 3px 0 0 4px ;">
+            <span><a href="ANASAYFA.html" target="_blanck"> Anasayfa</a></span><br>
+            <span><a href="HAKKIMDA.html" target="_blanck">Hakkımda</a></span><br>
+            <span><a href="ŞEHRİM.html" target="_blanck">Şehrim</a></span><br>
+            <span><a href="MİRASIMIZ.html" target="_blanck">Mirasımız</a></span><br>
+            <span><a href="EĞİTİM BİLGİLERİM.html" target="_blanck">Eğitim Bilgilerim</a></span><br>
+            <span><a href="İLGİ ALANLARIM.html" target="_blanck">İlgi Alanlarım</a></span><br>
+            <span><a href="LOG İN SAYFASI.html" target="_blanck">Log İn Sayfası</a></span><br>
+            <span><a href="İLETİŞİM.html" target="_blanck">İletişim</a></span><br>
+        </div>
+        <div style="border: 5px solid black;width: 852px;height: 310px;
+        background-color: aqua;float:right;margin:3px 4px 0 0 ;color:darkred">
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+</body>
+
+</html>
