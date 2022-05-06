@@ -21,7 +21,7 @@
             <img src="SİVAS KANGALI.jpg" alt="SİVAS KANGALI" title="SİVAS KANGALI" width="436" height="240">
         </div>
     </div>
-    <div style="width: 1326px;height: 330px; border: 5px dashed black;">
+    <div style="width: 1326px;height: 330px; border: 6px dashed black;">
         <div style=" width: 444px;height: 310px;
     border: 5px solid rgba(9, 6, 6, 0.97);color:rgb(255, 255, 255);font: bold 32px verdana ;background-color:rgb(255, 0, 0);color: aliceblue;
     font: bold 30px arial;float: left;margin: 3px 0 0 4px ;">
@@ -35,7 +35,7 @@
             <span><a href="İLETİŞİM.html" target="_blanck">İletişim</a></span><br>
         </div>
         <div style="border: 5px solid black;width: 852px;height: 310px;
-        background-color: aqua;float:right;margin:3px 4px 0 0 ;color:darkred">
+        background-color: aqua;float:right;margin:3px 3px 0 0 ;color:darkred">
 
         </div>
     </div>
