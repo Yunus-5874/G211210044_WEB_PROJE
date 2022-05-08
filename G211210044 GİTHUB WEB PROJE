@@ -18,7 +18,7 @@
             <img src="SİVAS manzara.jpeg" alt="SİVAS'IN KIŞI" title="SİVAS'IN KIŞI" width="436" height="240">
         </div>
         <div style="border: 3px dashed white; float:center">
-            <img src="SİVAS KANGALI.jpg" alt="SİVAS KANGALI" title="SİVAS KANGALI" width="436" height="240">
+            <img src="SİVAS KANGALI.jpg" alt="SİVASIN KANGALI" title="SİVAS KANGALI" width="436" height="240">
         </div>
     </div>
     <div style="width: 1326px;height: 330px; border: 6px dashed black;">
@@ -31,7 +31,7 @@
             <span><a href="MİRASIMIZ.html" target="_blanck">Mirasımız</a></span><br>
             <span><a href="EĞİTİM BİLGİLERİM.html" target="_blanck">Eğitim Bilgilerim</a></span><br>
             <span><a href="İLGİ ALANLARIM.html" target="_blanck">İlgi Alanlarım</a></span><br>
-            <span><a href="LOG İN SAYFASI.html" target="_blanck">Log İn Sayfası</a></span><br>
+            <span><a href="LOG İN SAYFASI.html" target="_blanck">Log in Sayfası</a></span><br>
             <span><a href="İLETİŞİM.html" target="_blanck">İletişim</a></span><br>
         </div>
         <div style="border: 5px solid black;width: 852px;height: 310px;
