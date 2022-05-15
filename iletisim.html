@@ -1,0 +1,80 @@
+# G211210044_WEB_PROJE
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="" id="form1" onchange="control('form1')" onkeyup="control('form1')">
+        Adı :<br>
+        <input type="text" name="adi" placeholder="Adınızı giriniz..."><br> Soyadı :<br>
+        <input type="text " name="soyadi " placeholder="Soyadınızı giriniz... " required autocomplete="on " pattern=[a-z] size="20"><br> Cinsiyet:
+        <br>
+        <input type="radio " name="cinsiyet " value="erkek " checked>Erkek
+        <input type="radio " name="cinsiyet " value="kadin ">Kadın<br> E-posta adresi:<br>
+        <input type="email " name="email "><br> Şifre:
+        <br>
+        <input type="password " name="sifre " pattern=[0-9]{4}><br> Fotoğraf:
+        <br>
+        <input type="file " name="dosya " multiple><br> Sevdiğin Spor Dalı:<br>
+        <select name="spor ">
+            <option value="futbol " selected>Futbol</option>
+            <option value="basketbol ">Basketbol</option>
+            <option value="voleybol ">Voleybol</option>
+            <option value="tenis ">Tenis</option>
+            <option value="beyzbol ">Beyzbol</option>
+            <option value="koşu ">Koşu</option>
+            </select><br> Okuduğunuz Üniversite:<br>
+        <input type="text " list="universiteler ">
+        <datalist id="universiteler ">
+            <option value="SAÜ ">
+            Sakarya Üniveristesi
+            </option>
+            <option value="AİBÜ ">
+                Abant İzzet Baysal Üniversitesi
+            </option>
+            <option value="SUBÜ ">
+            Sakarya Uyg. Bil. Üniversitesi
+            </option>
+            <option value="GSÜ ">
+                Galatasaray Üniversitesi
+            </option>
+            <option value="KOÜ ">
+            Kocaeli Üniversitesi
+            </option>
+            <option value="FBÜ ">
+                Fenerbahçe Üniversitesi
+                </option>
+            <option value="İTÜ ">
+            İstanbul Teknik Üniversitesi
+            </option>
+
+            </datalist>
+        <BR>
+
+
+        <input type="submit " value="GÖNDER ">
+        <BR>
+        <input type="reset " value="TEMİZLE!!! "><br>
+    </form>
+    <script>
+        function control(formId) {
+            let invalids = document.getElementById(formId).querySelectorAll(':invalid').length;
+            button = document.getElementById(formId).querySelector('button[type="submit "]');
+            console.log(invalids);
+            if (invalids = 0) {
+                button.removeAttirubute('disabled');
+            } else {
+                button.setAttribute('disabled', 'disabled');
+            }
+        }
+    </script>
+
+</body>
+
+</html>
